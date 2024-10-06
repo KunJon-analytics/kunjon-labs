@@ -4,7 +4,7 @@ import Container from "@/components/Container";
 import FadeIn from "@/components/FadeIn";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
-import logoFort from "@/images/clients/fort-fountain/logo.png";
+import logoPhobiaDark from "@/images/clients/phobia/logo-dark.svg";
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
       <Clients />
       <Testimonials
         className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: "Fort Fountain Apartments", logo: logoFort }}
+        client={{ name: "Phobia", logo: logoPhobiaDark }}
       >
         The team at KunJon Labs went above and beyond with our onboarding, even
         finding a way to access the user microphone without triggering one of
